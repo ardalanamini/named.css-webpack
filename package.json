@@ -1,0 +1,40 @@
+{
+  "name": "named.css-webpack",
+  "version": "0.1.0",
+  "description": "using named.css as a webpack plugin",
+  "main": "index.js",
+  "scripts": {
+    "prepare": "node ./scripts/prepare.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ardalanamini/named.css-webpack.git"
+  },
+  "files": [
+    "dist"
+  ],
+  "keywords": [
+    "css",
+    "minify",
+    "webpack",
+    "plugin"
+  ],
+  "author": "Ardalan Amini <ardalanamini22@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ardalanamini/named.css-webpack/issues"
+  },
+  "homepage": "https://github.com/ardalanamini/named.css-webpack#readme",
+  "devDependencies": {
+    "@types/node": "^9.3.0",
+    "@types/webpack": "^3.8.2",
+    "fs-readdir-recursive": "^1.1.0",
+    "rimraf": "^2.6.2",
+    "typescript": "^2.6.2",
+    "uglify-es": "^3.3.5"
+  },
+  "dependencies": {
+    "named.css": "^0.1.0"
+  }
+}
