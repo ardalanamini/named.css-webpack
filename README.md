@@ -16,7 +16,7 @@ npm i -D named.css-webpack
 ## Usage
 in your `webpack.config.js` file just add the plugin
 ```javascript
-const NamedCSS = require('named.css-webpack)
+const NamedCSS = require('named.css-webpack')
 
 const config = {
   ...,
